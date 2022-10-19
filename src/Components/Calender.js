@@ -47,7 +47,7 @@ export default function Calender() {
                     <td className="pt-6" key={index}>
                       <div className="flex justify-center w-full px-2 py-2 cursor-pointer">
                         <p className="text-base font-medium text-gray-500 dark:text-gray-100">
-                          {x == 0 ? "" : x}
+                          {x === 0 ? "" : x}
                         </p>
                       </div>
                     </td>

@@ -24,9 +24,9 @@ export default function Google() {
         ></i>
       </div>
       <div>
-        <div className="flex items-center justify-between px-1 py-1 pb-1 my-1 bg-orange-100">
+        <div className="flex items-center justify-between py-1 my-1 bg-orange-100 ">
           <div className="flex items-center gap-4">
-            <i className="text-sm text-orange-500  fa-solid fa-clock"></i>
+            <i className="text-sm text-orange-500 fa-solid fa-clock"></i>
             <p className="text-xs font-bold text-gray-500 text-bold">
               Create wireframe
             </p>
@@ -40,7 +40,7 @@ export default function Google() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-between mt-4 mb-2">
+      <div className="flex items-center justify-between pb-1 mt-4 mb-2 border-b">
         <p className="text-base font-bold text-gray-700">Slack</p>
         <i
           className="px-1 text-sm text-gray-500 border rounded-md fa-solid fa-play"

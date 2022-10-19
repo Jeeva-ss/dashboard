@@ -33,7 +33,7 @@ export default function Message() {
         <div className="flex items-center gap-2 my-4" key={index}>
           <div>
             <img
-              className={`rounded-full border ${`border-${x.color}-500`} p-1`}
+              className='p-1 border border-green-500 rounded-full'
               src={x.img}
               alt="stock"
               width={45}
