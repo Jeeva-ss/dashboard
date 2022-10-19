@@ -16,8 +16,8 @@ function App() {
   const comp = 'Completed'
   return (
     <div className="App">
-      <div className="app-container flex justify-between items-start">
-        <div className='nav hidden md:block'>
+      <div className="flex items-start justify-between rounded-2xl app-container">
+        <div className='hidden nav md:block'>
           <Sidebar />
         </div>
         <div>

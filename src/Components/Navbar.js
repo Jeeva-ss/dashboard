@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div className='md:m-2 w-[96%] my-2 mx-auto  flex justify-between items-center bg-white md:w-11/12  p-4 rounded-xl'>
+    <div className='md:m-2 w-[96%] my-2 mx-auto gap-3 flex justify-between items-center bg-white md:w-11/12  p-4 rounded-xl'>
       <div className='relative'>
         <label class="relative block rounded-full">
           <span class="sr-only">Search</span>
