@@ -10,12 +10,12 @@ export default function Sidebar() {
         <div className="text-center">
           <i className="text-3xl text-gray-700 fa-solid fa-bars-progress"></i>
         </div>
-        <div className="px-3 py-4 rounded dark:bg-gray-800">
+        <div className="px-3 py-4 rounded ">
           <ul className="space-y-8">
             <li className="my-8">
               <a
                 href="/"
-                className="flex items-center p-2 text-base font-normal text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 hover:border-r-4 hover:border-orange-400"
+                className="flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 hover:border-r-4 hover:border-orange-400"
               >
                 <i className="text-orange-400 fa-solid fa-table-columns"></i>
                 <span className="ml-3 font-bold text-orange-400 uppercase">
@@ -26,7 +26,7 @@ export default function Sidebar() {
             <li>
               <a
                 href="/"
-                className="flex items-center p-2 text-base font-normal text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 hover:border-r-4 hover:border-orange-400"
+                className="flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 hover:border-r-4 hover:border-orange-400"
               >
                 <i className="text-gray-400 fa-solid fa-diagram-project"></i>
                 <span className="flex-1 ml-3 font-bold text-gray-400 uppercase whitespace-nowrap">
@@ -37,7 +37,7 @@ export default function Sidebar() {
             <li>
               <a
                 href="/"
-                className="flex items-center p-2 text-base font-normal text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 hover:border-r-4 hover:border-orange-400"
+                className="flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 hover:border-r-4 hover:border-orange-400"
               >
                 <i className="text-gray-400 fa-solid fa-list-check "></i>
                 <span className="flex-1 ml-3 font-bold text-gray-400 uppercase whitespace-nowrap ">
@@ -48,7 +48,7 @@ export default function Sidebar() {
             <li>
               <a
                 href="/"
-                className="flex items-center p-2 text-base font-normal text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 hover:border-r-4 hover:border-orange-400"
+                className="flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 hover:border-r-4 hover:border-orange-400"
               >
                 <i className="text-gray-400 fa-solid fa-calendar "></i>
                 <span className="flex-1 ml-3 font-bold text-gray-400 uppercase whitespace-nowrap">
@@ -59,7 +59,7 @@ export default function Sidebar() {
             <li>
               <a
                 href="/"
-                className="flex items-center p-2 text-base font-normal text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 hover:border-r-4 hover:border-orange-400"
+                className="flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 hover:border-r-4 hover:border-orange-400"
               >
                 <i className="text-gray-400 fa-solid fa-gear "></i>
                 <span className="flex-1 ml-3 font-bold text-gray-400 uppercase whitespace-nowrap">
@@ -70,7 +70,7 @@ export default function Sidebar() {
             <li>
               <a
                 href="/"
-                className="flex items-center p-2 text-base font-normal text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 hover:border-r-4 hover:border-orange-400"
+                className="flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 hover:border-r-4 hover:border-orange-400"
               >
                 <i className="text-gray-400 fa-solid fa-chart-pie"></i>
                 <span className="flex-1 ml-3 font-bold text-gray-400 uppercase whitespace-nowrap">
@@ -81,7 +81,7 @@ export default function Sidebar() {
             <li>
               <a
                 href="/"
-                className="flex items-center p-2 text-base font-normal text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 hover:border-r-4 hover:border-orange-400"
+                className="flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 hover:border-r-4 hover:border-orange-400"
               >
                 <i className="text-gray-400 fa-solid fa-clock"></i>
                 <span className="flex-1 ml-3 font-bold text-gray-400 uppercase whitespace-nowrap">
