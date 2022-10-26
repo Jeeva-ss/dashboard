@@ -11,18 +11,18 @@ export default function Calender() {
   return (
     <div className="w-full m-2 md:w-72">
       <div className="md:w-72">
-        <div className="p-5 bg-white dark:bg-gray-800 rounded-xl">
+        <div className="p-5 bg-white  rounded-xl">
           <div className="flex items-center justify-between">
-            <span className="font-bold text-gray-800 focus:outline-none text dark:text-gray-100">
+            <span className="font-bold text-gray-800 focus:outline-none text ">
               Oct 2022
             </span>
             <div className="flex items-center gap-6">
               <div>
-                <i className="p-1 text-white bg-orange-500 rounded-full fa-solid fa-chevron-left focus:text-gray-400 hover:text-white dark:text-gray-100"></i>
+                <i className="p-1 text-white bg-orange-500 rounded-full fa-solid fa-chevron-left focus:text-gray-400 hover:text-white "></i>
               </div>
 
               <div>
-                <i className="p-1 text-white bg-orange-500 rounded-full fa-solid fa-chevron-right focus:text-gray-400 hover:text-white dark:text-gray-100"></i>
+                <i className="p-1 text-white bg-orange-500 rounded-full fa-solid fa-chevron-right focus:text-gray-400 hover:text-white"></i>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function Calender() {
                   {days.map((x, index) => (
                     <th key={index}>
                       <div className="flex justify-center w-full">
-                        <p className="text-base font-medium text-center text-gray-800 dark:text-gray-100">
+                        <p className="text-base font-medium text-center text-gray-800">
                           {x}
                         </p>
                       </div>
@@ -46,7 +46,7 @@ export default function Calender() {
                   {dates.map((x, index) => (
                     <td className="pt-6" key={index}>
                       <div className="flex justify-center w-full px-2 py-2 cursor-pointer">
-                        <p className="text-base font-medium text-gray-500 dark:text-gray-100">
+                        <p className="text-base font-medium text-gray-500 ">
                           {x === 0 ? "" : x}
                         </p>
                       </div>
@@ -57,7 +57,7 @@ export default function Calender() {
                   {dates22.map((x, index) => (
                     <td key={index}>
                       <div className="flex justify-center w-full px-2 py-2 cursor-pointer">
-                        <p className="text-base font-medium text-gray-500 dark:text-gray-100">
+                        <p className="text-base font-medium text-gray-500 ">
                           {x}
                         </p>
                       </div>
@@ -78,7 +78,7 @@ export default function Calender() {
                   {dates23.map((x, index) => (
                     <td key={index}>
                       <div className="flex justify-center w-full px-2 py-2 cursor-pointer">
-                        <p className="text-base font-medium text-gray-500 dark:text-gray-100">
+                        <p className="text-base font-medium text-gray-500 ">
                           {x}
                         </p>
                       </div>
@@ -89,7 +89,7 @@ export default function Calender() {
                   {dates3.map((x, index) => (
                     <td key={index}>
                       <div className="flex justify-center w-full px-2 py-2 cursor-pointer">
-                        <p className="text-base font-medium text-gray-500 dark:text-gray-100">
+                        <p className="text-base font-medium text-gray-500 ">
                           {x}
                         </p>
                       </div>
@@ -100,7 +100,7 @@ export default function Calender() {
                   {dates4.map((x, index) => (
                     <td key={index}>
                       <div className="flex justify-center w-full px-2 py-2 cursor-pointer">
-                        <p className="text-base font-medium text-gray-500 dark:text-gray-100">
+                        <p className="text-base font-medium text-gray-500 ">
                           {x}
                         </p>
                       </div>
@@ -112,7 +112,7 @@ export default function Calender() {
                   {dates5.map((x, index) => (
                     <td key={index}>
                       <div className="flex justify-center w-full px-2 py-2 cursor-pointer">
-                        <p className="text-base font-medium text-gray-500 dark:text-gray-100">
+                        <p className="text-base font-medium text-gray-500 ">
                           {x}
                         </p>
                       </div>
